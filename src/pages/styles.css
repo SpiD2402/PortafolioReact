@@ -1,0 +1,103 @@
+* {
+  font-family: Helvetica, Arial, sans-serif;
+  
+}
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+
+  text-align: center;
+}
+.header{
+  border-radius: 10px;
+ width: 100%;
+ margin: 0;
+ padding: 1.5rem 0rem;
+}
+  
+  body {
+    padding: 20px;
+    background-color: rgb(234, 234, 234);
+  }
+  
+  h1{
+    background-color: transparent;
+    text-align: center;
+    
+}
+  
+
+.card-pokemon{
+  max-width: 300px;
+  min-height: 400px;
+  max-height: 400px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.img-pokemon{
+  min-height: 250px;
+  max-height: 250px;
+  object-fit: contain !important;
+  margin-top: 20px;
+
+}
+
+
+.pj{
+  
+  margin: 0 auto;
+  margin-top: 5rem;
+  text-align: center;
+}
+
+
+
+
+
+/*pixaby*/
+.imp-pixar{
+
+  border: none;
+  padding: 0;
+
+}
+
+.centrar-pixaby{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.imagenes-pixaby{
+  gap: 1rem;
+  width: 20rem;
+  height: 20rem;
+  object-fit:cover;
+ 
+}
+
+
+/**/
+.login{
+  background-color: rgb(25, 25, 25);
+  border-radius:20px ;
+  padding: 8rem 2rem;
+
+}
+.content{
+  
+  padding: 20px;
+}
+.imagen-login{
+  object-fit: cover;
+
+}
+
+.nav-link.active-link {
+  color: rgb(255, 255, 255); /* Cambia el color de la letra a blanco */
+  font-weight: bold; /* Puede aplicar otro estilo adicional */
+}
